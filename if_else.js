@@ -33,13 +33,3 @@ gradeForm.addEventListener('submit', function(event) {
     // Display the result
     resultDiv.innerText = `Your grade is: ${grade}`;
 });
-
-// document.getElementById('gradeForm').addEventListener('submit', function(event) {
-//     event.preventDefault(); // Prevent default form submission
-
-//     const marks = parseInt(document.getElementById('marks').value); // Get marks from input
-//     const grade = determineGrade(marks); // Determine grade
-
-//     // Display the result
-//     document.getElementById('result').innerText = `Your grade is: ${grade}`;
-// });
